@@ -50,6 +50,9 @@ if __name__=='__main__':
         except ZeroDivisionError:
             print("No se puede dividir por cero")
 
+        finally:
+            print("Fin del programa")
+
 
 
 
